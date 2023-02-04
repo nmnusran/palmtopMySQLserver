@@ -1,5 +1,5 @@
-Creating MySQL database server on a palmtop
-===========================================
+Creating a palmtop MySQL database server
+========================================
 
 **Naufer Nusran. 02/04/2023**
 
