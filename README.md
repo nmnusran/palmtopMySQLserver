@@ -1,7 +1,7 @@
 Creating MySQL database server on a palmtop
 ===========================================
 
-[ Naufer Nusran. 2023/02/04]
+**Naufer Nusran. 02/04/2023**
 
 In this project, you will install a server or lite version of a suitable linux distribution on a palmtop mini computer such as a Raspberry Pi. In your regular PC (the laptop or desktop), you may install MySQL Workbench community version. After creating the database server on your palmtop and also configuring MySQL Workbench on your PC properly, you will be able to remotely access the database server.
 
@@ -39,36 +39,36 @@ sudo apt update && sudo apt upgrade
 
 We will be installing MariaDB server which is essentially based on MySQL.
 
-*sudo apt install mariadb-server*
+**sudo apt install mariadb-server**
 
 Then make the necessary database server configurations by typing the following command in the terminal.
 
-*sudo mysql_secure_installation*
+**sudo mysql_secure_installation**
 
 You can use the following command to locally connect to the database server with “root” privileges:
 
-*sudo mysql -u root -p*
+**sudo mysql -u root -p**
 
 Congratulations!!!. You have now created and entered the database server!
 You may now create or import databases, create database users, grant different privilege levels to different users etc. Getting yourself familiar with SQL commands can be very handy at this point.
 
-Here’s some “administrative” commands I frequently use:
+Here’re some “administrative” commands I often use:
 
-*CREATE DATABASE yourDB;*
+**CREATE DATABASE yourDB;**
 
-*SHOW DATABASES;*
+**SHOW DATABASES;**
 
-*CREATE USER 'user1'@'localhost' IDENTIFIED BY 'password1';*
+**CREATE USER 'user1'@'localhost' IDENTIFIED BY 'password1';**
 
-*GRANT ALL PRIVILEGES ON *.* TO ‘user1’@'localhost' IDENTIFIED BY 'password1';*
+**GRANT ALL PRIVILEGES ON *.* TO ‘user1’@'localhost' IDENTIFIED BY 'password1';**
 
-*FLUSH PRIVILEGES;*
+**FLUSH PRIVILEGES;**
 
-*SHOW GRANTS FOR 'user1'@'localhost';*
+**SHOW GRANTS FOR 'user1'@'localhost';**
 
-*DROP USER 'user1'@'localhost';*
+**DROP USER 'user1'@'localhost';**
 
-*DROP DATABASE yourDB;*
+**DROP DATABASE yourDB;**
 
 
 Setting up MySQL Workbench on your PC:
@@ -80,12 +80,12 @@ https://dev.mysql.com/downloads/workbench/
 
 MySQL Workbench is a user-friendly GUI. After installation, you will have to configure its setting so that it can connect to the database server located in the remote palmtop via SSH. Here’re the settings for MySQL Workbench:
 
-*Connection method: standard TCP/IP over SSH*
+**Connection method => standard TCP/IP over SSH**
 
-*SSH Hostname: <palmtop IP> : <ssh port>*
+**SSH Hostname => palmtop IP : ssh port**
 
-*SSH Username: <ssh username>*
+**SSH Username => ssh username**
 
-*MYSQL Hostname: localhost or 127.0.0.1*
+**MYSQL Hostname => localhost or 127.0.0.1**
 
-*MYSQL Server port:3306*
+**MYSQL Server port => 3306**
