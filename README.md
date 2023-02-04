@@ -1,4 +1,4 @@
-#Creating MySQL database server on a palmtop
+**Creating MySQL database server on a palmtop**
 
 [ Naufer Nusran. 2023/02/04]
 
@@ -10,7 +10,7 @@ Here, I will focus on how to make this project work on a Libre Computer Board AM
 
 We also need a micro SD card. I used a SanDisc 128GB card.
 
-#Installing the OS for Raspberry Pi:
+**Installing the OS for Raspberry Pi:**
 
 First you need to install a suitable OS on the SD card to be used in your palmtop. Download the Raspberry Pi Imager on to your PC (laptop or desktop) that has an SD card reader. 
 
@@ -18,7 +18,7 @@ If your palmtop is a Raspberry Pi 4, install the Raspberry Pi OS Lite (64-bit) v
 
 Note that “OS Lite” version will not have a desktop GUI. We don’t need a GUI for the OS, because we are creating a server and we will eventually connect to the server remotely.
 
-#Installing the OS for Libre Computer:
+**Installing the OS for Libre Computer:**
 
 Download a suitable OS image of a Ubuntu server for the Libre board from:
 https://distro.libre.computer/ci/ubuntu/22.04/
@@ -28,7 +28,7 @@ What I have got is a Libre AML-S905X-CC. Therefore, I chose the OS image named �
 Once image is downloaded, you can use the same Raspberry Pi Imager utility to install the downloaded image onto your SD Card. 
 
 
-#Installing the Database Server:
+**Installing the Database Server:**
 
 Once you switch ON the palmtop with the loaded SD card that already has the OS installed, you may now start installing the database server. Let’s first update the packages using the following Linux terminal command:
 
@@ -61,7 +61,7 @@ DROP USER 'user1'@'localhost';
 DROP DATABASE yourDB;
 
 
-#Setting up MySQL Workbench on your PC:
+**Setting up MySQL Workbench on your PC:**
 
 Download the MySQL Workbench free version to your PC (laptop or desktop) from:
 
