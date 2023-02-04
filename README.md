@@ -70,7 +70,11 @@ https://dev.mysql.com/downloads/workbench/
 MySQL Workbench is a user-friendly GUI. After installation, you will have to configure its setting so that it can connect to the database server located in the remote palmtop via SSH. Here’re the settings for MySQL Workbench:
 
 Connection method: standard TCP/IP over SSH
+
 SSH Hostname: [palmtop IP : ssh port]
+
 SSH Username: [ssh username]
+
 MYSQL Hostname: localhost or 127.0.0.1
+
 MYSQL Server port:3306
