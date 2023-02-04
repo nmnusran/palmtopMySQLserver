@@ -1,13 +1,13 @@
-Creating a palmtop MySQL database server
-========================================
+Creating a low-cost palmtop MySQL database server
+================================================
 
 **Naufer Nusran. 02/04/2023**
 
-In this project, you will install a server or lite version of a suitable linux distribution on a palmtop mini computer such as a Raspberry Pi. In your regular PC (the laptop or desktop), you may install MySQL Workbench community version. After creating the database server on your palmtop and also configuring MySQL Workbench on your PC properly, you will be able to remotely access the database server.
+In this project, you will install a server (lite) version of a suitable linux distribution on a palmtop mini computer such as a Raspberry Pi. In your regular PC (the laptop or desktop), you may install MySQL Workbench community version. After creating the database server on your palmtop and also configuring MySQL Workbench on your PC properly, you will be able to remotely access the database server.
 
 Although either a Raspberry Pi 3 or 4 can be used, I would recommend a Raspberry Pi 4, because it is 64bit in contrast to the Raspberry Pi 3 which is 32bit. 
 
-Here, I will focus on how to make this project work on a Libre Computer Board AML-S905X-CC (Le Potato) 2GB 64-bit Mini Computer. The Libre computer is based on ARMv8 Cortex-A53 64bit processor, and quite comparable to Raspberry Pi 4 specs, for a much lower cost. At the time of preparing this document, you can purchase this in Amazon for only $35.
+Here, I shall focus on how to make this work on a Libre Computer Board AML-S905X-CC (Le Potato) 2GB 64-bit Mini Computer. The Libre computer is based on ARMv8 Cortex-A53 64bit processor, and is quite comparable to Raspberry Pi 4 specs, for a much lower cost. At the time of preparing this document, you can purchase this in Amazon for only $35.
 
 We also need a micro SD card. I used a SanDisc 128GB card.
 
