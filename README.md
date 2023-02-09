@@ -1,7 +1,7 @@
 Creating a low-cost palmtop MySQL database server
 ================================================
 
-**Naufer Nusran. Feb 4,2023**
+**Naufer Nusran.  Feb 4, 2023**
 
 In this project, you will install a server (lite) version of a suitable linux distribution on a palmtop mini computer such as a Raspberry Pi. In your regular PC (the laptop or desktop), you may install MySQL Workbench community version. After creating the database server on your palmtop and also configuring MySQL Workbench on your PC properly, you will be able to remotely access the database server.
 
